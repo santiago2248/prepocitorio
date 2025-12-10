@@ -117,8 +117,8 @@ while running:
 
 
             # Si pierde 3 → fin del juego
-            if donas_perdidas >= 5:
-                print("Perdiste! Se escaparon 5 donas.")
+            if donas_perdidas >= 7:
+                print("Perdiste! Se escaparon 7 donas.")
                 running = False
             continue
 
@@ -154,3 +154,4 @@ while running:
 
 pygame.quit()
 sys.exit()
+
